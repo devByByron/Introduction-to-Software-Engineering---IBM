@@ -365,6 +365,9 @@ Prioritizes test cases based on frequent defects, recent changes, critical funct
 
 Testing Levels
 
+<img width="567" height="374" alt="image" src="https://github.com/user-attachments/assets/e06032f7-19ee-45c4-a095-132eca8b851e" />
+
+
 Unit Testing
 
 Verifies small sections of code (functions, methods).
@@ -394,4 +397,173 @@ Formal testing by customers/stakeholders.
 Ensures software meets business requirements and user needs.
 
 Typically done during the maintenance stage.
+
+**Software Documentation Overview**
+Definition
+
+Information about the software that describes what the product is and how to use it.
+
+Can be written, video, or graphical.
+
+Applies across all phases of the SDLC.
+
+Written for different audiences: end users, developers, QA, sysadmins, stakeholders.
+
+Categories of Documentation
+
+Product Documentation → Describes product functionality.
+
+Process Documentation → Describes how to complete a task.
+
+Includes Standard Operating Procedures (SOPs) for detailed, step-by-step guidance.
+
+Types of Product Documentation
+
+Requirements Documentation
+
+Written in planning phase.
+
+Audience: developers, architects, QA.
+
+Includes SRS, SysRS, UAT specifications.
+
+Describes expected features & functionality.
+
+Design Documentation
+
+Written by architects and dev team.
+
+Explains how software will be built.
+
+Includes conceptual + technical designs.
+
+Technical Documentation
+
+Code comments, working papers, implementation notes.
+
+Helps developers understand code behavior.
+
+Quality Assurance (QA) Documentation
+
+Testing strategies, progress, metrics.
+
+Includes test plans, test cases, test data, test scenarios, test strategies, traceability matrices.
+
+Ensures requirements are tested properly.
+
+User Documentation
+
+For end users.
+
+Explains how to install, operate, and troubleshoot.
+
+Includes FAQs, installation guides, tutorials, user manuals.
+
+Process Documentation & SOPs
+
+Process Documentation: Overview of a process.
+
+SOPs: Detailed, organization-specific instructions.
+
+Example: steps for code check-in & merging.
+
+Formats: flowchart, outline, step-by-step instructions.
+
+Maintaining Documentation
+
+Must be kept up to date.
+
+Example: Online manuals updated when UI changes.
+
+Maintenance and periodic reviews are crucial.
+
+**Roles in Software Engineering Projects**
+
+1. Project Manager / Scrum Master
+
+Project Manager (traditional SDLC):
+
+Focus: planning, scheduling, budgeting.
+
+Allocates resources & personnel.
+
+Executes project plan & manages communication.
+
+Scrum Master (Agile):
+
+Focus: ensuring team & individual success.
+
+Facilitates communication & collaboration.
+
+Aligns with Agile values → people & interactions > processes.
+
+2. Stakeholder
+
+Includes customers, end-users, decision-makers, sysadmins.
+
+Defines project requirements.
+
+Provides feedback & clarification.
+
+May participate in beta testing and acceptance testing.
+
+3. System / Software Architect
+
+Designs and communicates software architecture.
+
+Defines inner structure & technical aspects.
+
+Provides technical support across SDLC stages.
+
+Sometimes called solution architect.
+
+4. UX Designer
+
+Defines how software behaves from the user’s perspective.
+
+Balances intuitive design with required robustness.
+
+Determines how software communicates functionality and how users interact with it.
+
+5. Software Developer
+
+Writes the code.
+
+Implements the architecture & requirements.
+
+Incorporates UX requirements into the product.
+
+6. Tester / QA Engineer
+
+Ensures quality of the product.
+
+Writes & executes test cases.
+
+Identifies bugs/deficiencies & reports them to developers.
+
+7. Site Reliability Engineer (SRE) / Ops Engineer
+
+Bridges development & operations.
+
+Tracks incidents & facilitates post-incident reviews.
+
+Automates systems & processes.
+
+Assists with troubleshooting & ensures system reliability.
+
+8. Product Manager / Product Owner
+
+Holds the vision of the product.
+
+Deep understanding of client requirements & user needs.
+
+Leads development efforts & ensures the product provides value to stakeholders.
+
+9. Technical Writer / Information Developer
+
+Creates documentation for end-users (non-technical audience).
+
+Helps customers use software & give feedback.
+
+May write user manuals, FAQs, reports, white papers, press releases.
 
