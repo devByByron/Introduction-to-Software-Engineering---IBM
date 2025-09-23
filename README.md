@@ -128,6 +128,45 @@ Steps: Identify stakeholders → Define goals → Set objectives → Elicit → 
 ✅ Benefits: Knowledge sharing, better code, soft skills  
 ⚠️ Challenges: Fatigue, dominance, scheduling conflicts  
 
+## 👥 Pair Programming Styles
+
+### 1. Driver / Navigator
+- **Driver**  
+  - The one typing the code.  
+  - Focuses on the mechanics (syntax, structure, implementation).  
+
+- **Navigator**  
+  - Reviews in real time.  
+  - Thinks about direction, catches mistakes, considers design, architecture, and edge cases.  
+
+🔄 They **swap roles regularly** to keep both developers engaged.  
+
+---
+
+### 2. Ping-Pong (TDD-based)
+- Based on **Test-Driven Development (TDD)**.  
+- **Workflow**:  
+  1. Developer A writes a **failing test**.  
+  2. Developer B writes the **code to make it pass**.  
+  3. Developer B then writes the **next failing test**.  
+  4. Developer A writes the **code to pass it**.  
+
+⚡ Keeps both developers active and ensures **tests drive the design**.  
+
+---
+
+### 3. Strong Style (Mentor/Learner)
+- Popularized by **Llewellyn Falco**.  
+- **Rule**:  
+  > “For an idea to go from your head into the computer, it must go through someone else’s hands.”  
+
+- **Used in Mentorship**:  
+  - **Mentor (Navigator):** Guides, explains concepts, suggests approaches.  
+  - **Learner (Driver):** Writes the actual code, gaining hands-on experience.  
+
+✅ Ensures the learner is **actively coding**, not just watching.  
+
+
 ---
 
 ## 🚀 CI/CD (Continuous Integration & Delivery/Deployment)
