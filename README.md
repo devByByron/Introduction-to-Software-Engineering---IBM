@@ -100,15 +100,15 @@ Steps: Identify stakeholders → Define goals → Set objectives → Elicit → 
 ---
 
 ## 👥 Roles in Software Engineering Projects
-- Project Manager / Scrum Master  
-- Stakeholders  
-- System / Software Architect  
-- UX Designer  
-- Software Developer  
-- QA / Tester  
-- SRE / Ops Engineer  
-- Product Manager / Owner  
-- Technical Writer  
+- Project Manager / Scrum Master – Oversees planning, timelines, and team coordination; ensures the project follows Agile or chosen methodology.
+- Stakeholders – Individuals or groups (clients, users, executives) who have an interest in the project’s outcome and provide requirements/feedback.
+- System / Software Architect – Designs the overall structure of the system, choosing technologies, patterns, and ensuring scalability and maintainability.
+- UX Designer – Focuses on user research, wireframes, and design to ensure the product is intuitive, accessible, and visually appealing.
+- Software Developer – Writes the actual code, implements features, fixes bugs, and collaborates on solutions with the team.
+- QA / Tester – Validates that the software meets requirements by running manual and automated tests; ensures quality and reliability.
+- SRE / Ops Engineer – Manages infrastructure, deployment, and system reliability; monitors performance and handles incident response.
+- Product Manager / Owner – Defines the product vision, prioritizes features, manages the backlog, and aligns the team with business goals.
+- Technical Writer – Creates clear documentation such as user guides, API docs, and process manuals to support developers and end-users.
 
 ---
 
