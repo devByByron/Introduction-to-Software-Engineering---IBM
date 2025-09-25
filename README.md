@@ -194,12 +194,159 @@ A combination of front-end, back-end, database, and infrastructure technologies.
 
 ---
 
+**High-Level vs. Low-Level Programming Languages**
+
+High-Level Languages
+
+Use English-like syntax, easy to read, write, and debug.
+
+Portable across platforms.
+
+Examples: SQL, Pascal, Python.
+
+Low-Level Languages
+
+Closer to machine code, harder for humans to read.
+
+Tied to specific hardware architectures.
+
+Example: Assembly (ARM, MIPS, X86).
+
+Query Languages
+
+Specialized languages for interacting with databases.
+
+Perform CRUD operations: Create, Read, Update, Delete.
+
+Require database and application to use compatible syntax.
+
+Examples: SQL (most common), AQL, CQL, Datalog.
+
+Assembly Languages
+
+Low-level programming language using mnemonics (short codes) to represent machine instructions.
+
+Hardware-specific: each CPU has its own assembly language.
+
+Requires an assembler to convert code into machine instructions.
+
+One assembly instruction usually equals one machine instruction.
 
 
+Key Programming Logic Concepts
+1. Boolean Expressions and Variables
 
+Boolean Expression: A statement that evaluates to either true or false.
 
+Variable: Holds a value that can change based on user input, program conditions, or previous outputs.
 
+Role in Programming: Boolean logic and variables help computers make decisions and control program flow.
 
+2. Branching (Decision-Making Logic)
+
+Definition: Program chooses different paths of execution based on conditions.
+
+How It Works: Evaluates a condition → follows one branch if true, another if false.
+
+Branching Statements (Constructs):
+
+if → Executes code only if condition is true.
+
+if-then-else → Executes one block if true, another if false.
+
+switch → Chooses a path based on multiple possible values of a variable/expression.
+
+GoTo → Jumps to another line in code (less common today).
+
+Use Case: Deciding what action to take.
+
+3. Looping (Repetition Logic)
+
+Definition: A set of instructions repeats until a condition is met.
+
+How It Works: Performs a process → checks condition → repeats if condition still holds.
+
+Loop Types:
+
+While loop → Checks condition before each iteration (entry-controlled).
+
+For loop → Runs a fixed number of times based on a counter.
+
+Do-while loop → Executes at least once, checks condition after (exit-controlled).
+
+Use Case: Deciding how many times to perform an action.
+
+Difference Between Branching and Looping
+
+Branching: Controls which path the program takes.
+
+Looping: Controls how many times an action repeats.
+
+Programming Concepts
+
+1. Identifiers
+
+Definition: A custom name that references a program component (e.g., value, method, interface, or class).
+
+Purpose: Makes code easier to read, maintain, and reuse.
+
+2. Constants
+
+Definition: An identifier whose value does not change during program execution.
+
+Examples: Pi, tax_rate, cost_price.
+
+Benefits:
+
+Improves readability (meaningful names instead of raw numbers).
+
+Easier to update (change the constant once instead of in multiple places).
+
+3. Variables
+
+Definition: An identifier whose value can change during execution.
+
+Examples: age, username, high_score.
+
+Purpose: Useful for storing unknown or user-input values.
+
+Declaration: Can assign a data type and value immediately, or leave uninitialized for later assignment.
+
+4. Containers
+
+Definition: Special identifiers that store multiple elements.
+
+Purpose: More efficient than declaring many separate variables.
+
+Array
+
+Fixed size container storing elements of the same type.
+
+Sequential order, indexed from 0.
+
+Example: Storing 6 integers in one array instead of 6 separate variables.
+
+Vector
+
+Dynamic size container (grows/shrinks automatically).
+
+Also called a dynamic array.
+
+Uses more memory and is slower than arrays since data isn’t always in sequential memory.
+
+No need to define maximum size at declaration.
+
+Key Takeaways
+
+Identifiers → Names for program components.
+
+Constants → Fixed values.
+
+Variables → Changeable values.
+
+Arrays → Fixed-size collections.
+
+Vectors → Dynamic-size collections.
 
 
 
