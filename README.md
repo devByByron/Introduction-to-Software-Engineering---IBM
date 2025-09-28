@@ -657,5 +657,275 @@ Analogy:
 Like asking a question to a teacher (controller) who responds with an answer (response).
 
 
+Pre-Production Environments
+
+Different types include development, QA (Quality Assurance), and staging.
+Development is where coding occurs, QA is for testing, and staging closely replicates production but is not for general users.
+Production Environment
+
+This is the robust environment intended for all users, considering application load and non-functional requirements like security and scalability.
+It includes the entire solution stack of hardware and software necessary for application operation.
+Deployment Options
+
+On-premises deployment involves hosting the application within the organization’s physical location, offering greater security but often at a higher cost.
+Cloud deployment can be public, private, or hybrid, with public cloud being the most common due to its scalability and cost-effectiveness, while private cloud offers increased security and customization. Hybrid combines both models for optimized benefits.
+
+**Production Deployment Components**
+N-Tier Architecture Overview
+
+The application is deployed in multiple tiers:
+
+Presentation Tier – Front-end client applications (what users see).
+
+Web Tier – Web load balancer + web servers to handle requests.
+
+Application Tier – App load balancer or proxy + application servers running business logic.
+
+Data Tier – Database server(s), often with a replica for high availability.
+
+All tiers (except the client) are protected behind a firewall.
+
+Key Components
+Firewall
+
+A security barrier that monitors incoming/outgoing traffic.
+
+Blocks malicious traffic, viruses, and unauthorized access.
+
+Load Balancer
+
+Distributes incoming network traffic across multiple servers.
+
+Prevents overload, improves responsiveness, and keeps services available.
+
+Proxy Server (when used)
+
+Acts as an intermediate layer between tiers.
+
+Can load-balance, cache, encrypt, or filter traffic.
+
+Server Types
+
+Web Server:
+
+Handles HTTP requests and delivers static content (HTML, images, files).
+
+Application Server:
+
+Runs business logic and interacts with databases.
+
+Sends processed results back to the client.
+
+Database Server:
+
+Stores and manages data through a DBMS.
+
+Supports data retrieval, updates, and transactions.
+
+**Software Engineering Job Titles**
+
+Software engineering roles vary widely, but most fall into common categories. Each role has specific responsibilities and requires specific skills.
+
+1. Front-End Engineer (UI / Web Developer)
+
+Focus: User Interface (UI) – what users see and interact with.
+Responsibilities:
+
+Design and build the visual layout and experience of websites/apps.
+
+Ensure cross-device and cross-browser compatibility.
+Key Skills:
+
+Web development languages (HTML, CSS, JavaScript).
+
+UI/UX frameworks (React, Angular, etc.).
+
+Understanding of UX principles.
+
+2. Back-End Engineer
+
+Focus: Business Logic & Data Management – behind-the-scenes functionality.
+Responsibilities:
+
+Build APIs, database interactions, and core application logic.
+
+Ensure performance, scalability, and reliability.
+Key Skills:
+
+Programming languages (Java, Python, C#, etc.).
+
+Application frameworks (Spring Boot, Django, etc.).
+
+Web/app servers, databases, load balancers.
+
+Deployment and containerization tools (Docker, Kubernetes).
+
+3. Full-Stack Engineer
+
+Focus: Both front-end and back-end.
+Responsibilities:
+
+Build complete solutions end-to-end.
+
+Work on UI, APIs, databases, and deployment.
+Key Skills:
+
+Combination of front-end + back-end skills.
+
+Web development languages, databases, APIs.
+
+DevOps & deployment tools.
+
+4. DevOps Engineer
+
+Focus: Agile software delivery by combining development + operations.
+Responsibilities:
+
+Automate builds, testing, deployment, and monitoring.
+
+Collaborate with dev & ops teams to improve release cycles.
+Key Skills:
+
+Source control (Git), CI/CD pipelines.
+
+Programming & scripting.
+
+Containerization (Docker), monitoring tools (Prometheus).
+
+5. Software Quality Assurance (QA) Engineer
+
+Focus: Software testing & validation.
+Responsibilities:
+
+Write automated/manual tests to find bugs.
+
+Log issues, work with developers to resolve them.
+Key Skills:
+
+Test automation frameworks (Selenium, JUnit).
+
+Bug tracking tools (Jira).
+
+Shell scripting, programming basics.
+
+6. Software Integration Engineer
+
+Focus: Connecting software with hardware (IoT, embedded systems).
+Responsibilities:
+
+Write code to make hardware and software work together.
+Key Skills:
+
+Programming languages for embedded systems (C, C++).
+
+Device-specific frameworks & toolkits.
+
+7. Software Security Engineer (Ethical Hacker)
+
+Focus: Application & network security.
+Responsibilities:
+
+Find vulnerabilities and security flaws before release.
+
+Build tools and processes to improve security.
+Key Skills:
+
+Penetration testing, reverse engineering.
+
+Scripting languages, encryption tools, network security.
+
+8. Mobile App Developer
+
+Focus: Apps for mobile devices (iOS, Android).
+Responsibilities:
+
+Design, develop, and deploy apps for phones/tablets.
+Key Skills:
+
+Mobile OS knowledge (iOS, Android).
+
+Programming languages (Swift, Kotlin, Flutter, React Native).
+
+API and web services integration.
+
+9. Game Developer / Game Engineer
+
+Focus: Creating games for various platforms.
+Responsibilities:
+
+Work with designers, artists, and sound engineers.
+
+Write game logic and integrate visual/audio assets.
+Key Skills:
+
+Game engines (Unity, Unreal Engine).
+
+Graphics programming, physics engines.
+
+**Code of Ethics**
+
+The Software Engineering Code of Ethics was developed by IEEE-CS and ACM to guide software engineers in acting responsibly and ethically.
+It applies to engineers, managers, educators, students, and policymakers and covers the entire software lifecycle — analysis, design, development, testing, and maintenance.
+
+Eight Principles of the Code of Ethics
+1️⃣ Public
+
+Act in the public interest first.
+
+Ensure software contributes to public good, safety, fairness, and accessibility.
+
+Accept responsibility for the impact of your work.
+
+2️⃣ Client & Employer
+
+Act in the best interests of both.
+
+Be honest and transparent about risks, plagiarism, and illegal activity.
+
+Seek consent where needed and protect confidentiality.
+
+3️⃣ Product
+
+Strive for high-quality software within cost and time constraints.
+
+Ensure reliability, security, and maintainability.
+
+4️⃣ Judgment
+
+Act with integrity and independence.
+
+Maintain objectivity and honesty in decisions.
+
+Avoid conflicts of interest, bribery, or unethical practices.
+
+5️⃣ Management
+
+Managers should set ethical standards for teams.
+
+Minimize risks, enforce security practices, and set realistic expectations.
+
+Provide fair compensation and respect intellectual property rights.
+
+6️⃣ Profession
+
+Uphold the reputation of software engineering.
+
+Follow the code and encourage others to do the same.
+
+Report violations and unethical behavior.
+
+7️⃣ Colleagues
+
+Treat colleagues with respect and fairness.
+
+Give proper credit for their work and encourage ethical conduct.
+
+8️⃣ Self
+
+Commit to lifelong learning and professional development.
+
+Maintain competence, improve skills, and behave professionally.
+
+
 ## 🏁 Final Notes
 This repository provides a **comprehensive knowledge base** of software engineering fundamentals, structured in a way to support both **learners** and **practitioners**.  
