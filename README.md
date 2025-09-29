@@ -194,25 +194,6 @@ A combination of front-end, back-end, database, and infrastructure technologies.
 
 ---
 
-# 📘 Software Engineering Knowledge Base
-
-A structured knowledge base covering programming languages, logic concepts, architectures, roles, and ethics in software engineering.  
-
----
-
-## 📑 Table of Contents
-- [High-Level vs. Low-Level Programming Languages](#high-level-vs-low-level-programming-languages)  
-- [Key Programming Logic Concepts](#key-programming-logic-concepts)  
-- [Programming Concepts](#programming-concepts)  
-- [Approaches to Application Architecture](#approaches-to-application-architecture)  
-- [Architectural Patterns in Software](#architectural-patterns-in-software)  
-- [Pre-Production Environments](#pre-production-environments)  
-- [Production Deployment Components](#production-deployment-components)  
-- [Software Engineering Job Titles](#software-engineering-job-titles)  
-- [Code of Ethics](#code-of-ethics)  
-- [Final Notes](#-final-notes)  
-
----
 
 ## 🔠 High-Level vs. Low-Level Programming Languages  
 
