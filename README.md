@@ -68,13 +68,96 @@ Software development today is guided by the **Software Development Lifecycle (SD
 
 ---
 
-## 🛠️ Building Quality Software – Key Points
-1. Requirements Gathering  
-2. Design (system architecture, APIs, UI, DB)  
-3. Coding for Quality (standards, patterns, linters, documentation)  
-4. Testing (unit → integration → system → UAT)  
-5. Releases (Alpha → Beta → GA)  
-6. Documentation (system + user docs)  
+# 🧱 Building Quality Software
+
+## 🎯 Learning Objectives
+After completing this module, you will be able to:
+- List common software engineering processes  
+- Describe how these processes contribute to building **high-quality software**
+
+---
+
+## 🧩 Common Software Engineering Processes
+The software development process typically involves **six key stages**:
+
+### 1. Requirements Gathering
+- Process of collecting and documenting the set of requirements the software must meet  
+- Results in a **Software Requirements Specification (SRS)**  
+- Often includes **use cases** describing business needs and user flows  
+- Requirements fall into four main categories:
+  - **Functional**
+  - **External & UI**
+  - **System Features**
+  - **Non-Functional**
+
+---
+
+### 2. Software Design
+- Transforms requirements into a structure that can be implemented in code  
+- Defines the **system architecture**, component boundaries, and interactions  
+- Covers:
+  - Business rules and application logic  
+  - API design  
+  - User Interface and database design  
+  - Performance, security, and platform considerations  
+- Goal: Translate requirements into a **software solution blueprint**
+
+---
+
+### 3. Coding for Quality
+- Ensures the codebase is **maintainable, readable, testable, and secure**  
+- Quality code should:
+  - Fulfill all software requirements without defects  
+  - Be clean, consistent, and well-documented  
+  - Be efficient and easy to maintain  
+- Best practices include:
+  - Following **coding standards**, conventions, and design patterns  
+  - Using **linters** to detect syntax or style issues  
+  - Writing **clear comments** for maintainability  
+
+---
+
+### 4. Testing
+- Verifies that the software meets established requirements and is **free of bugs**  
+- Ensures reliability, performance, and security  
+- **Levels of Testing:**
+  - **Unit Testing:** Tests smallest components in isolation (by developers)  
+  - **Integration Testing:** Tests combined components  
+  - **System Testing:** Tests the full system as a whole  
+  - **User Acceptance Testing (UAT):** Also called **beta testing**, performed by end users  
+- **Types of Testing:**
+  - Functional  
+  - Non-Functional  
+  - Regression  
+
+---
+
+### 5. Releases
+- Distribution of the latest version of the software to users  
+- Common release stages:
+  - **Alpha Release:**  
+    - First functioning version for internal stakeholders  
+    - May contain bugs and incomplete features  
+  - **Beta Release:**  
+    - Released externally to limited users  
+    - Tests functionality under real-world conditions  
+    - Should meet all functional requirements  
+  - **General Availability (GA):**  
+    - Stable version released to all users  
+
+---
+
+### 6. Documentation
+- Provides instructions and explanations for both technical and non-technical audiences  
+- **System Documentation (Technical Users):**
+  - README files  
+  - Inline comments  
+  - Architecture & design documents  
+  - Verification & maintenance guides  
+- **User Documentation (End Users):**
+  - User guides & manuals  
+  - Instructional videos  
+  - Online and inline help resources  
 
 ---
 
