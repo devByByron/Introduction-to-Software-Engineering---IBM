@@ -174,23 +174,156 @@ Steps: Identify stakeholders → Define goals → Set objectives → Elicit → 
 ## ⚙️ Software Development Methodologies Overview
 - **Waterfall Model** – Sequential, rigid, long release cycles  
 - **V-Shape Model** – Emphasizes testing, rigid  
-- **Agile Model** – Iterative, flexible, feedback-driven  
+- **Agile Model** – Iterative, flexible, feedback-driven
+
+
+**Waterfall Method**
+
+A sequential approach where each phase must be completed before the next begins, with all planning done upfront.
+The customer typically sees the product only during the testing phase, leading to long intervals between releases.
+
+**V-shape Model**
+
+Similar to Waterfall but emphasizes verification and validation phases, forming a V shape.
+Each verification phase corresponds to a validation phase, with distinct stages for planning, design, coding, and testing.
+
+**Agile Method**
+
+An iterative approach that promotes collaboration and short development cycles (sprints), allowing for ongoing feedback and adjustments.
+Agile focuses on delivering a minimum viable product (MVP) quickly, with core values emphasizing individuals, working software, customer collaboration, and adaptability to change.
+
 
 ---
 
 ## 🧪 Software Testing
-- **Functional Testing** – verifies requirements  
-- **Non-Functional Testing** – performance, scalability, security  
-- **Regression Testing** – ensures new changes don’t break old features  
+- **Functional Testing** – Involves black box testing, focusing on inputs and outputs without examining the internal code. It ensures the software meets functional requirements and handles user errors appropriately. (verifies requirements)  
+- **Non-Functional Testing** – Evaluates attributes like performance, security, and scalability. It assesses how the software behaves under stress and its consistency across different environments. (performance, scalability, security)  
+- **Regression Testing** – Confirms that recent changes, such as bug fixes, do not negatively impact existing functionality. It involves selecting and prioritizing test cases based on various factors.(ensures new changes don’t break old features)
 
 <img width="567" height="374" alt="Testing Levels" src="https://github.com/user-attachments/assets/e06032f7-19ee-45c4-a095-132eca8b851e" />  
 
+Black Box = Testing what it does
+→ You don’t see the code; you test inputs and outputs.
+
+White Box = Testing how it works
+→ You look inside the code and test its internal logic.
+
 ---
 
-## 📖 Software Documentation Overview
-- **Product Documentation**: requirements, design, technical docs  
-- **Process Documentation**: SOPs, workflow instructions  
-- **User Documentation**: guides, FAQs, tutorials  
+# 🧾 Software Documentation
+
+## 🎯 Learning Objectives
+After completing this module, you will be able to:
+- List common **documentation formats**  
+- Compare and contrast **product documentation** and **process documentation**  
+- Describe the **categories and types** of documentation  
+- Explain the purpose of **Standard Operating Procedures (SOPs)**  
+
+---
+
+## 🧠 What Is Software Documentation?
+Software documentation provides information about a software product — describing **what it is** and **how to use it**.  
+It may include written, video, or graphical materials related to the product’s **development, deployment, and use**.
+
+Documentation supports all stages of the **Software Development Life Cycle (SDLC)** and is created for different audiences:
+- End users  
+- Software developers  
+- QA engineers  
+- System administrators  
+- Other project stakeholders  
+
+---
+
+## 🗂️ Documentation Formats
+Documentation can appear in **three formats**:
+1. **Written** — manuals, guides, code comments, specifications  
+2. **Video** — tutorials, demonstrations, training content  
+3. **Graphical** — diagrams, flowcharts, infographics  
+
+---
+
+## 🧩 Categories of Documentation
+Software documentation is divided into two main categories:
+
+### 1. Product Documentation
+- Describes **how the product works** and its functionality.  
+- Helps users or developers understand the **features, design, and technical behavior** of the software.
+
+### 2. Process Documentation
+- Describes **how to complete specific tasks** or processes.  
+- Provides the **requirements and steps** for implementing a quality business process.  
+- Often includes **Standard Operating Procedures (SOPs)** for consistency and compliance.
+
+---
+
+## 📚 Types of Product Documentation
+There are **five main categories** of product documentation:
+
+### 1. Requirements Documentation
+- Created during the **planning phase** of the SDLC.  
+- Intended for developers, architects, and QA personnel.  
+- Describes expected **features and functionality** of the software.  
+- Includes:
+  - **Software Requirements Specification (SRS)**
+  - **System Requirements Specification (SyRS)**
+  - **User Acceptance Specifications (UAS)**
+
+---
+
+### 2. Design Documentation
+- Written by software architects and developers.  
+- Explains **how the software will be built** to meet requirements.  
+- Includes both **conceptual** and **technical** design documents.  
+
+---
+
+### 3. Technical Documentation
+- Contains **inline comments**, code explanations, and developer notes.  
+- May include **working papers** that describe system behavior or engineering decisions.  
+- Aimed at helping other developers **understand and maintain** the code.
+
+---
+
+### 4. Quality Assurance (QA) Documentation
+- Supports the **testing process** and quality validation.  
+- Examples include:
+  - Test plans  
+  - Test cases  
+  - Test data  
+  - Test strategies  
+  - Test scenarios  
+  - **Traceability matrices** (map test cases to requirements)  
+
+---
+
+### 5. User Documentation
+- Intended for **end users** to guide operation, installation, or troubleshooting.  
+- Common forms include:
+  - FAQs  
+  - Installation guides  
+  - Tutorials  
+  - Help guides  
+  - User manuals  
+
+---
+
+## 🧭 Standard Operating Procedures (SOPs)
+- Accompany **process documentation** and provide **detailed, step-by-step** instructions for common but complex organizational tasks.  
+- Ensure **consistency, accuracy, and compliance** across teams.  
+- Example:  
+  > Checking in code to a repository may be a standard process, but the SOP would detail your organization’s **specific steps** for merging code into the main branch.  
+- SOPs can take the form of:
+  - **Flowcharts**  
+  - **Hierarchical outlines**  
+  - **Step-by-step written instructions**
+
+---
+
+## 🔄 Maintaining Documentation
+- All documentation must be **kept up to date** as systems evolve.  
+- Example: if a **cloud app UI changes**, its **online help or user manual** must also be updated.  
+- Updating documentation typically occurs during the **maintenance phase** of the SDLC.  
+- Documentation should be **reviewed periodically** to ensure accuracy and relevance.
 
 ---
 
