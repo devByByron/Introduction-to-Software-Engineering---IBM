@@ -548,6 +548,9 @@ Imagine a **restaurant**:
 
 Simple, but if too many customers arrive at once, the chef can easily get overwhelmed.  
 
+<img width="411" height="190" alt="image" src="https://github.com/user-attachments/assets/cbc1df7e-07e6-457e-87a5-e4aa18e48de6" />
+
+
 ---
 
 ## 2. 3-Tier (N-Tier)  
@@ -565,11 +568,14 @@ Think of a **restaurant with a waiter**:
 
 This structure is more **organized and scalable**.  
 
+<img width="342" height="240" alt="image" src="https://github.com/user-attachments/assets/ab49ef60-ca07-4fad-9bc4-fa9c86fb11e1" />
+
+
 ---
 
 ## 3. Peer-to-Peer (P2P)  
 **Explanation:**  
-Every participant (peer) is both a **client and a server**. No central authority is required.  
+Every participant (peer) is both a **client and a server**. No central authority is required. (Decentralized network of nodes that behave as both client and server.)
 
 **Analogy:**  
 Like a **potluck dinner**:  
@@ -577,6 +583,9 @@ Like a **potluck dinner**:
 - If you want something, you ask another guest directly.  
 
 **Examples:** BitTorrent, blockchain.  
+
+<img width="398" height="252" alt="image" src="https://github.com/user-attachments/assets/0cb2c413-d1e4-4761-bc47-39fa73ec9120" />
+
 
 ---
 
@@ -591,6 +600,8 @@ Think of a **doorbell system**:
 
 This makes systems more **efficient and decoupled**.  
 
+<img width="502" height="157" alt="image" src="https://github.com/user-attachments/assets/b4b880ed-a28c-4f49-a23e-a93e18e6d067" />
+
 ---
 
 ## 5. Microservices  
@@ -601,7 +612,10 @@ The application is divided into small, independent services. Each one has a sing
 A **shopping mall**:  
 - Each store (microservice) runs independently — clothing, food, electronics.  
 - Together, they form the full mall (application).  
-- If one shop closes, the rest continue working.  
+- If one shop closes, the rest continue working.
+
+<img width="497" height="226" alt="image" src="https://github.com/user-attachments/assets/1d1961a6-c077-4100-86f8-c8829bed076d" />
+
 
 ---
 
