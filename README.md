@@ -54,6 +54,7 @@ Software development today is guided by the **Software Development Lifecycle (SD
 
 <img width="241" height="283" alt="SDLC" src="https://github.com/user-attachments/assets/dcde7e75-52b1-4b2d-829a-21aa5923d114" />  
 
+
 **Planning** - In the planning phase, requirements are gathered, analyzed, and documented, leading to the creation of a Software Requirements Specification (SRS) document.
 
 **Design** - The design phase involves developing the software architecture based on the SRS, with prototypes created for stakeholder feedback.
@@ -162,12 +163,15 @@ The software development process typically involves **six key stages**:
 ---
 
 ## 📝 Welcome to Requirements
+
+**Requirements Gathering Process**
+
 Steps: Identify stakeholders → Define goals → Set objectives → Elicit → Document → Confirm/Prioritize  
 
 **Key Requirement Documents**  
-- **SRS** (Software Requirement Specification)  
-- **URS** (User Requirement Specification)  
-- **SysRS** (System Requirement Specification)  
+- **SRS** (Software Requirement Specification) - Captures software functionalities and performance benchmarks, including functional, external, system features, and non-functional requirements.
+- **URS** (User Requirement Specification) - Outlines user stories, detailing who the user is, what functions are needed, and why.  
+- **SysRS** (System Requirement Specification) - Broader than the SRS, detailing system capabilities, interfaces, user characteristics, and various requirements including policy and performance criteria. 
 
 ---
 
