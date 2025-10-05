@@ -349,6 +349,11 @@ There are **five main categories** of product documentation:
 ---
 
 ## 🤝 What is Pair Programming?
+
+Pair programming involves two developers working side-by-side, either physically or virtually, to enhance collaboration and communication.
+It allows for continuous planning and discussion, often leading to a better end product.
+
+
 - **Driver/Navigator**  
 - **Ping-Pong (TDD-based)**  
 - **Strong Style (mentor/learner)**  
