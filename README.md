@@ -54,6 +54,24 @@ Software development today is guided by the **Software Development Lifecycle (SD
 
 <img width="241" height="283" alt="SDLC" src="https://github.com/user-attachments/assets/dcde7e75-52b1-4b2d-829a-21aa5923d114" />  
 
+**Planning**
+In the planning phase, requirements are gathered, analyzed, and documented, leading to the creation of a Software Requirements Specification (SRS) document.
+
+**Design**
+The design phase involves developing the software architecture based on the SRS, with prototypes created for stakeholder feedback.
+
+**Development**
+The development phase is where coding occurs, guided by the design document, using various programming tools and languages.
+
+**Testing**
+The testing phase ensures the code is stable and meets requirements, involving different testing levels like unit and integration testing.
+
+**Deployment**
+Deployment involves releasing the application to users, often in stages.
+
+**Maintenance**
+Addresses bugs and gathers user feedback for future improvements.
+
 ---
 
 ## 🛠️ Building Quality Software – Key Points
