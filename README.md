@@ -4,10 +4,6 @@ A structured overview of core concepts in software engineering, including the SD
 
 ---
 
-## 📑 Table of Contents
-
----
-
 ## 📚 Course Structure Overview
 The course is organized into five modules:
 1. The Software Development Lifecycle  
