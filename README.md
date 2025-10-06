@@ -594,7 +594,68 @@ A combination of front-end, back-end, database, and infrastructure technologies.
 - Independence  
 - Extensibility  
 - Encapsulation  
-- Non-Context Specific  
+- Non-Context Specific
+
+## 1. 🧩 Reusability
+**Definition:**  
+A component can be reused across multiple applications or systems without modification.
+
+**Example:**  
+A “User Authentication” component used in several different projects.
+
+**Benefit:**  
+Saves development time and promotes consistency.
+
+---
+
+## 2. 🔁 Replaceability
+**Definition:**  
+A component can be replaced by another similar component without affecting the rest of the system, provided the interface remains the same.
+
+**Example:**  
+Swapping one payment gateway component for another (e.g., PayPal → Stripe).
+
+**Benefit:**  
+Improves flexibility and reduces dependency.
+
+---
+
+## 3. 🧠 Independence
+**Definition:**  
+A component functions independently and interacts with other components through well-defined interfaces only.
+
+**Example:**  
+A “Logging” component that operates independently but communicates via a standard logging API.
+
+**Benefit:**  
+Improves maintainability and minimizes coupling.
+
+---
+
+## 4. 🚀 Extensibility
+**Definition:**  
+A component can be extended or enhanced to provide new functionality without altering its existing behavior.
+
+**Example:**  
+Adding a “Two-Factor Authentication” feature to an existing login component.
+
+**Benefit:**  
+Enables scalability and supports future requirements.
+
+---
+
+## 5. 🔒 Encapsulation
+**Definition:**  
+A component hides its internal logic, data, and implementation details, exposing only what is necessary through an interface.
+
+**Example:**  
+A “Database Access” component that hides SQL queries and only exposes `getUser()` or `addUser()` methods.
+
+**Benefit:**  
+Promotes modularity and reduces the risk of unintended interference.
+
+---
+
 
 ### Component-Based Architecture  
 - Breaks system into logical, independent components within one app.  
