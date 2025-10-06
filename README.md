@@ -164,6 +164,90 @@ The software development process typically involves **six key stages**:
 
 Steps: Identify stakeholders → Define goals → Set objectives → Elicit → Document → Confirm/Prioritize  
 
+## 1. Identify Stakeholders
+**Purpose:** Find everyone who is affected by or cares about the project (e.g., users, sponsors, developers, vendors).
+
+**Activities:**
+- Review org charts and conduct stakeholder interviews.
+- Create a stakeholder map (influence vs interest).
+- Build a contact list.
+
+**Output:** *Stakeholder Register* (names, roles, influence, communication needs).
+
+**Tip:** Include frontline users early — they usually know hidden needs.
+
+---
+
+## 2. Define Goals
+**Purpose:** Capture high-level business outcomes (why the project exists).
+
+**Activities:**
+- Workshop with sponsors.
+- Write a problem statement.
+- Define success metrics.
+
+**Output:** *Goal Statement* and measurable success criteria (KPIs).
+
+**Tip:** Make goals business-facing — e.g., “Reduce onboarding time by 30% within 6 months.”
+
+---
+
+## 3. Set Objectives
+**Purpose:** Convert goals into clear, measurable outcomes.
+
+**Activities:**
+- Create SMART objectives (Specific, Measurable, Achievable, Relevant, Time-bound).
+- Assign targets, owners, and deadlines.
+
+**Output:** *List of Objectives* with metrics and constraints.
+
+**Tip:** Attach a measurable metric to each objective.
+
+---
+
+## 4. Elicit Requirements
+**Purpose:** Gather functional and non-functional requirements from stakeholders.
+
+**Techniques:**
+- Interviews and workshops (JAD sessions)
+- Surveys and observations
+- Prototyping and user journey mapping
+
+**Output:** *Raw requirements* (notes, user stories, use cases, prototypes).
+
+**Tip:** Use multiple methods and ask open-ended questions.
+
+---
+
+## 5. Document Requirements
+**Purpose:** Organize and formalize all gathered information.
+
+**Activities:**
+- Write user stories, use cases, and functional specs.
+- Define acceptance criteria.
+- Create wireframes and assign unique requirement IDs.
+
+**Output:** *Functional Requirements Document (FRD)*, *Product Requirements Document (PRD)*, or *System Requirements Specification (SRS)*.
+
+**Tip:** Use clear language and visuals to prevent ambiguity.
+
+---
+
+## 6. Confirm & Prioritize
+**Purpose:** Validate and prioritize requirements with stakeholders.
+
+**Activities:**
+- Conduct review sessions and walkthroughs.
+- Apply prioritization frameworks (MoSCoW, Value vs Effort, WSJF).
+- Record approvals and sign-offs.
+
+**Output:** *Approved & prioritized requirements list* and *Requirements Traceability Matrix (RTM)*.
+
+**Tip:** Document all trade-offs and ensure alignment before development starts.
+
+
+
+
 **Key Requirement Documents**  
 - **SRS** (Software Requirement Specification) - Captures software functionalities and performance benchmarks, including functional, external, system features, and non-functional requirements.
 - **URS** (User Requirement Specification) - Outlines user stories, detailing who the user is, what functions are needed, and why.  
